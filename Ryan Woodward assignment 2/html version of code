@@ -1,0 +1,368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>SWCBankSystem.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: Monospaced}
+pre {color: #000000; background-color: #ffffff; font-family: Monospaced}
+table {color: #000000; background-color: #e9e8e2; font-family: Monospaced}
+.ST0 {font-family: Monospaced; font-weight: bold}
+.comment {color: #969696}
+.ST2 {font-family: Monospaced; font-weight: bold; font-style: italic}
+.ST1 {color: #009900; font-family: Monospaced; font-style: italic}
+.ST4 {font-family: Monospaced; font-style: italic}
+.literal {color: #0000e6}
+.ST3 {color: #ce7b00; font-family: Monospaced; font-weight: bold}
+.string {color: #ce7b00}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">F:\computing\Sofware Programing\java Assignments\Ryan Woodward assignment 2\SWC Bank system\src\swc\bank\system\SWCBankSystem.java</td></tr></table>
+<pre>
+  1 <span class="comment">/*</span>
+  2 <span class="comment"> * To change this license header, choose License Headers in Project Properties.</span>
+  3 <span class="comment"> * To change this template file, choose Tools | Templates</span>
+  4 <span class="comment"> * and open the template in the editor.</span>
+  5 <span class="comment"> */</span>
+  6 <span class="literal">package</span> swc.bank.system;
+  7 <span class="literal">import</span> java.util.ArrayList;
+  8 <span class="literal">import</span> java.util.Scanner;
+  9 <span class="literal">import</span> java.util.Random;
+ 10 
+ 11 
+ 12 
+ 13 <span class="literal">public</span> <span class="literal">class</span> <span class="ST0">SWCBankSystem</span> {
+ 14 
+ 15      <span class="comment">//Max amount of arrays so more can be added  </span>
+ 16       <span class="literal">static</span> ArrayList&lt;String&gt; <span class="ST1">memPass</span> = <span class="literal">new</span> ArrayList();
+ 17       <span class="literal">static</span> ArrayList&lt;String&gt; <span class="ST1">normPass</span> = <span class="literal">new</span> ArrayList();
+ 18       <span class="literal">static</span> ArrayList&lt;String&gt; <span class="ST1">userName</span> = <span class="literal">new</span> ArrayList();
+ 19 
+ 20        <span class="literal">static</span> Scanner <span class="ST1">in</span> = <span class="literal">new</span> Scanner(System.<span class="ST1">in</span>);
+ 21       
+ 22       <span class="comment">//scanners</span>
+ 23      
+ 24 <span class="literal">public</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST2">main</span>(String[] args) {
+ 25     
+ 26     <span class="comment">// array lists    </span>
+ 27       <span class="comment">// memory passwords    </span>
+ 28          <span class="ST1">memPass</span>.add(<span class="string">&quot;</span><span class="string">bingbingbong</span><span class="string">&quot;</span>);
+ 29          <span class="ST1">memPass</span>.add(<span class="string">&quot;</span><span class="string">chicken123</span><span class="string">&quot;</span>);
+ 30          <span class="ST1">memPass</span>.add(<span class="string">&quot;</span><span class="string">youhavenpowerhere</span><span class="string">&quot;</span>);  
+ 31          <span class="ST1">memPass</span>.add(<span class="string">&quot;</span><span class="string">youwereweak</span><span class="string">&quot;</span>);
+ 32          <span class="ST1">memPass</span>.add(<span class="string">&quot;</span><span class="string">nonono</span><span class="string">&quot;</span>);
+ 33 
+ 34               <span class="comment">// normal passwords   </span>
+ 35         <span class="ST1">normPass</span>.add(<span class="string">&quot;</span><span class="string">Makeamericagr8</span><span class="string">&quot;</span>);
+ 36         <span class="ST1">normPass</span>.add(<span class="string">&quot;</span><span class="string">Infinityifif1</span><span class="string">&quot;</span>);
+ 37         <span class="ST1">normPass</span>.add(<span class="string">&quot;</span><span class="string">Flyufools1</span><span class="string">&quot;</span>);
+ 38         <span class="ST1">normPass</span>.add(<span class="string">&quot;</span><span class="string">Darkside2</span><span class="string">&quot;</span>);
+ 39         <span class="ST1">normPass</span>.add(<span class="string">&quot;</span><span class="string">Unlimitedpower1</span><span class="string">&quot;</span>);
+ 40 
+ 41               <span class="comment">//usernames    </span>
+ 42         <span class="ST1">userName</span>.add(<span class="string">&quot;</span><span class="string">donaldtrump</span><span class="string">&quot;</span>); <span class="comment">// 0</span>
+ 43         <span class="ST1">userName</span>.add(<span class="string">&quot;</span><span class="string">barrackobama</span><span class="string">&quot;</span>); <span class="comment">// 1</span>
+ 44         <span class="ST1">userName</span>.add(<span class="string">&quot;</span><span class="string">gandalfthegray</span><span class="string">&quot;</span>); <span class="comment">// 2</span>
+ 45         <span class="ST1">userName</span>.add(<span class="string">&quot;</span><span class="string">darthvader</span><span class="string">&quot;</span>); <span class="comment">// 3</span>
+ 46         <span class="ST1">userName</span>.add(<span class="string">&quot;</span><span class="string">emperorpalp</span><span class="string">&quot;</span>); <span class="comment">// 4</span>
+ 47 
+ 48 
+ 49        
+ 50 
+ 51 
+ 52 
+ 53 
+ 54       
+ 55        Random r = <span class="literal">new</span> Random();
+ 56 
+ 57        <span class="comment">//nameing strings </span>
+ 58  
+ 59             String loginUser=<span class="string">&quot;&quot;</span>;
+ 60             String userPasswordSaved=<span class="string">&quot;&quot;</span>;
+ 61             String userMemData=<span class="string">&quot;&quot;</span>;
+ 62  
+ 63              <span class="literal">boolean</span> userFound =<span class="literal">false</span>;
+ 64 
+ 65  
+ 66             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Hello, Welcome to South West College Bank</span><span class="string">&quot;</span>);
+ 67             <span class="literal">do</span>
+ 68             {
+ 69                     <span class="comment">//log in / sign up stage : going log in first </span>
+ 70                     System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="ST3">\n</span><span class="string">Please choose from the option below:</span><span class="ST3">\n</span><span class="string">L. Login </span><span class="ST3">\n</span><span class="string">A. New account </span><span class="ST3">\n</span><span class="string">E. Exit</span><span class="string">&quot;</span>);
+ 71 
+ 72 
+ 73                     loginUser = <span class="ST1">in</span>.nextLine();
+ 74                 <span class="comment">// determines if the presses L or l </span>
+ 75                         <span class="literal">if</span>(loginUser.equalsIgnoreCase(<span class="string">&quot;</span><span class="string">L</span><span class="string">&quot;</span>))
+ 76                         { 
+ 77                              userFound=<span class="literal">false</span>;
+ 78                             <span class="comment">// entering user name   </span>
+ 79                             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">enter please enter your username:</span><span class="string">&quot;</span>);
+ 80 
+ 81                             <span class="comment">//input for user name here</span>
+ 82                             String userUsername  = <span class="ST1">in</span>.nextLine();
+ 83 
+ 84                             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Please enter password:</span><span class="string">&quot;</span>);
+ 85                             String userPassword =<span class="ST1">in</span>.nextLine();   
+ 86                             
+ 87                             <span class="literal">int</span> random1 =r.nextInt(7);
+ 88                             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">please enter character</span><span class="string">&quot;</span> + random1 + <span class="string">&quot;</span><span class="string">from your memorable data</span><span class="string">&quot;</span>);
+ 89                             <span class="literal">char</span> mem1 = <span class="ST1">in</span>.nextLine().charAt(0);
+ 90 
+ 91                             <span class="literal">int</span> random2 = r.nextInt(7);
+ 92                             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Please enter charcter</span><span class="string">&quot;</span> + random2 +<span class="string">&quot;</span><span class="string">from your memorable data</span><span class="string">&quot;</span>);
+ 93                             <span class="literal">char</span> mem2 = <span class="ST1">in</span>.nextLine().charAt(0);
+ 94 
+ 95                             <span class="literal">int</span> random3 = r.nextInt(7);
+ 96                             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Please enter charcter</span><span class="string">&quot;</span> + random3 +<span class="string">&quot;</span><span class="string">from your memorable data</span><span class="string">&quot;</span>);
+ 97                             <span class="literal">char</span> mem3 = <span class="ST1">in</span>.nextLine().charAt(0);
+ 98 
+ 99                             
+100                             <span class="comment">//if username isnt found then user name is false</span>
+101                             <span class="literal">boolean</span> userFoundName =<span class="literal">false</span>;
+102                             <span class="literal">int</span> userNum = 0;
+103 
+104 
+105                             <span class="comment">// if username is found from the array list then array list gets username   </span>
+106                            <span class="literal">for</span>(<span class="literal">int</span> i = 0; i&lt; <span class="ST1">userName</span>.size(); i++)
+107                               {
+108 
+109                                   <span class="literal">if</span> (<span class="ST1">userName</span>.get(i).equals(userUsername))
+110                                   {
+111                                    userFoundName = <span class="literal">true</span>;
+112                                    userNum = i;
+113 
+114                                   }
+115                               }<span class="comment">//end for    </span>
+116 
+117 
+118                     
+119                    <span class="comment">//if user gets password from array list then it is correct</span>
+120                      <span class="comment">//if user exists and password matches and mem data matches, then successful log in</span>
+121                        <span class="literal">if</span> (userFoundName == <span class="literal">true</span> &amp;&amp;
+122                            <span class="ST1">normPass</span>.get(userNum).equals(userPassword) &amp;&amp;
+123                            <span class="ST1">memPass</span>.get(userNum).charAt(random1) == mem1 &amp;&amp;
+124                            <span class="ST1">memPass</span>.get(userNum).charAt(random2) == mem2 &amp;&amp;
+125                            <span class="ST1">memPass</span>.get(userNum).charAt(random3) == mem3
+126                           
+127                            )    
+128                              
+129                        {
+130                             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Invailid login</span><span class="string">&quot;</span>);<span class="comment">//logged in</span>
+131                            
+132                        }
+133                        <span class="literal">else</span>{
+134                            System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">user logged in</span><span class="string">&quot;</span>);<span class="comment">//not logged in</span>
+135                        }
+136                        
+137                 }<span class="literal">else</span> <span class="literal">if</span>(loginUser.equalsIgnoreCase(<span class="string">&quot;</span><span class="string">A</span><span class="string">&quot;</span>))
+138                 {  
+139                             <span class="ST4">accountCreation</span>(<span class="ST1">userName</span>, <span class="ST1">normPass</span>, <span class="ST1">memPass</span>);<span class="comment">//call method</span>
+140                 }<span class="literal">else</span> <span class="literal">if</span>(loginUser.equalsIgnoreCase(<span class="string">&quot;</span><span class="string">E</span><span class="string">&quot;</span>))
+141                 { 
+142                 }
+143                                      
+144         }<span class="literal">while</span>(!loginUser.equalsIgnoreCase(<span class="string">&quot;</span><span class="string">E</span><span class="string">&quot;</span>));
+145        
+146 
+147         
+148         
+149         
+150         
+151         
+152         
+153 
+154 }<span class="comment">//end main</span>
+155 
+156 <span class="literal">public</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST2">accountCreation</span>(ArrayList&lt;String&gt; userNameArray, ArrayList&lt;String&gt; userPassArray, ArrayList&lt;String&gt; userMemArray){
+157     <span class="comment">//add new account process</span>
+158     
+159     
+160     <span class="comment">//ask user to enter their name</span>
+161     
+162     
+163     <span class="comment">//check length of name - if it is invalid (less than 6 or greater than 12), then need to show error and get user to try again</span>
+164     
+165     <span class="comment">//check name is unique - if it is already in the array, then need to show error and get user to try again</span>
+166     
+167     <span class="literal">boolean</span> invalid=<span class="literal">false</span>;<span class="comment">//a boolean variable that we can set if invalid input is entered</span>
+168 <span class="comment">//username</span>
+169         <span class="literal">do</span><span class="comment">//start do loop to allow the user to try again if input is invalid</span>
+170         {
+171             invalid = <span class="literal">false</span>; <span class="comment">//set invalid to false</span>
+172             <span class="comment">//ask the user to enter one or more words</span>
+173             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Please enter a username </span><span class="string">&quot;</span>);
+174             <span class="comment">//read in the user input and store in the variable userWord</span>
+175             String user_name = <span class="ST1">in</span>.nextLine();
+176 
+177             <span class="comment">//if lnght is less than 6 or greater then 12</span>
+178             <span class="literal">if</span> (user_name.length() &lt; 6&amp;&amp;  || user_name.length() &gt;12)
+179             {
+180                 <span class="comment">//output error message and ask user to try again</span>
+181                 System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">username is either to short or too long </span><span class="string">&quot;</span>);
+182                 
+183                 <span class="comment">//set boolean to true</span>
+184                invalid=<span class="literal">true</span>;
+185                
+186             }
+187             <span class="literal">else</span>{
+188 
+189                 <span class="comment">// if username is found from the array list then it is invalid   </span>
+190                <span class="literal">for</span>(<span class="literal">int</span> i = 0; i&lt; userNameArray.size(); i++)
+191                   {
+192 
+193                       <span class="literal">if</span> (userNameArray.get(i).equals(user_name))
+194                       {
+195                             <span class="comment">//output error</span>
+196                           System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">username already taken please try again</span><span class="string">&quot;</span>);
+197                             <span class="comment">//set boolean to true</span>
+198                           invalid=<span class="literal">true</span>;
+199                       }
+200                   }<span class="comment">//end for    </span>
+201             }
+202            
+203 
+204         } <span class="literal">while</span> (invalid == <span class="literal">true</span>);<span class="comment">//repeat the code while the user has entered invalid input</span>
+205 
+206        
+207     
+208     
+209     
+210     
+211     <span class="comment">//ask user to enter their password</span>
+212     <span class="comment">//password</span>
+213           <span class="literal">do</span>{
+214               invalid = <span class="literal">false</span>;
+215               System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Please enter a password </span><span class="ST3">\n</span><span class="string">Pasword must best 8 charcters long</span><span class="string">&quot;</span>);
+216               String userPass = <span class="ST1">in</span>.nextLine();
+217 
+218             <span class="comment">//if lnght is less than 6 or greater then 12</span>
+219             <span class="literal">if</span> (userPass.length() != 8)
+220             {
+221                 <span class="comment">//output error message and ask user to try again</span>
+222                 System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">password is not 8 chartacters long </span><span class="string">&quot;</span>);
+223                 
+224                 invalid=<span class="literal">true</span>;
+225                 
+226                 }
+227             
+228             
+229             
+230                   <span class="literal">if</span> (!Character.<span class="ST4">isLetter</span>(userPass.charAt(0)))
+231             {
+232              
+233                 System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Password should begin with a letter </span><span class="string">&quot;</span>);
+234                
+235                 invalid=<span class="literal">true</span>;
+236                
+237                 }
+238             <span class="literal">else</span>{
+239 
+240                 <span class="comment">// if username is found from the array list then it is invalid   </span>
+241                <span class="literal">for</span>(<span class="literal">int</span> i = 0; i&lt; userPassArray.size(); i++)
+242                   {
+243 
+244                       <span class="literal">if</span> (userPassArray.get(i).equals(<span class="ST1">normPass</span>))
+245                       {
+246                             <span class="comment">//output error</span>
+247                           System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">invalid password</span><span class="string">&quot;</span>);
+248                             <span class="comment">//set boolean to true</span>
+249                           invalid=<span class="literal">true</span>;
+250                       }
+251                   }<span class="comment">//end for    </span>
+252             }
+253                    <span class="literal">for</span> (<span class="literal">int</span> i = 0; i &lt; userPass.length(); i++)
+254             {
+255                 
+256                 <span class="literal">if</span> (!Character.<span class="ST4">isLetter</span>(userPass.charAt(i)) &amp;&amp; !Character.<span class="ST4">isDigit</span>(userPass.charAt(i)))
+257                 {
+258                                             
+259                              System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Password contains invalid characters, numbers and letters only </span><span class="string">&quot;</span>);
+260                
+261                              invalid=<span class="literal">true</span>;
+262                     <span class="literal">break</span>; 
+263                     
+264           }<span class="literal">while</span> (invalid==<span class="literal">true</span>);
+265           
+266            
+267           <span class="comment">//meroable data </span>
+268     <span class="literal">do</span>{
+269               invalid = <span class="literal">false</span>;
+270               System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Please enter a memorable data </span><span class="string">&quot;</span>);
+271               String userPass = <span class="ST1">in</span>.nextLine();
+272 
+273             <span class="comment">//if lnght is less than 6 or greater then 12</span>
+274             <span class="literal">if</span> (<span class="ST4">userMem</span>.<span class="ST4">length</span>() != 8)
+275             {
+276                 <span class="comment">//output error message and ask user to try again</span>
+277                 System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">memorable data must be 8 charcters long </span><span class="string">&quot;</span>);
+278                 
+279                 invalid=<span class="literal">true</span>;
+280                 
+281                 }
+282             <span class="literal">else</span>{
+283 
+284                 <span class="comment">// if username is found from the array list then it is invalid   </span>
+285                <span class="literal">for</span>(<span class="literal">int</span> i = 0; i&lt; userMemArray.size(); i++)
+286                   {
+287 
+288                       <span class="literal">if</span> (userMemArray.get(i).equals(<span class="ST1">memPass</span>))
+289                       {
+290                             <span class="comment">//output error</span>
+291                           System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">memorable data invalid</span><span class="string">&quot;</span>);
+292                             <span class="comment">//set boolean to true</span>
+293                           invalid=<span class="literal">true</span>;
+294                       }
+295                   }
+296                
+297                <span class="literal">for</span> (<span class="literal">int</span> i = 0; i &lt; <span class="ST4">userMem</span>.<span class="ST4">length</span>(); i++)
+298             {
+299                 
+300                 <span class="literal">if</span> (!Character.<span class="ST4">isLetter</span>(<span class="ST4">userMem</span>.<span class="ST4">charAt</span>(i)) &amp;&amp; !Character.<span class="ST4">isDigit</span>(<span class="ST4">userMem</span>.<span class="ST4">charAt</span>(i)))
+301                 {
+302                                             
+303                              System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">Password contains invalid characters, numbers and letters only </span><span class="string">&quot;</span>);
+304                
+305                              invalid=<span class="literal">true</span>;
+306                     <span class="literal">break</span>; 
+307                     
+308             }
+309     }<span class="literal">while</span> (invalid==<span class="literal">true</span>);
+310     
+311   
+312     <span class="ST4">storage</span> = <span class="literal">true</span>;
+313     
+314     <span class="literal">int</span> userCount = 4;
+315     
+316     <span class="literal">for</span>(userNameArray[userCount] = <span class="ST4">username</span>; )
+317     {
+318         <span class="literal">if</span>(<span class="ST4">storage</span> = <span class="literal">true</span>){
+319             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">username stored</span><span class="string">&quot;</span>);   
+320         }
+321     }
+322     
+323     <span class="literal">for</span>(userNameArray[userCount] = userPass; )
+324     {
+325         <span class="literal">if</span>(<span class="ST4">storage</span> = <span class="literal">true</span>){
+326             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">password stored</span><span class="string">&quot;</span>);   
+327         }
+328     }
+329     
+330     <span class="literal">for</span>(userNameArray[userCount] = <span class="ST4">userMem</span>; )
+331     {
+332         <span class="literal">if</span>(<span class="ST4">storage</span> = <span class="literal">true</span>){
+333             System.<span class="ST1">out</span>.println(<span class="string">&quot;</span><span class="string">memorable data stored stored</span><span class="string">&quot;</span>);   
+334         }
+335     }
+336     <span class="comment">//add data to array</span>
+337     
+338 }
+339 
+340 
+341 }<span class="comment">//end class</span>
+342 
+</pre></body>
+</html>
