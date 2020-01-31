@@ -1,0 +1,40 @@
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csprojResolveAssemblyReference.cache
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game.resources
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Splash1.resources
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csproj.GenerateResource.Cache
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csproj.CoreCompileInputs.cache
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\woo07008086\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Options.resources
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csprojResolveAssemblyReference.cache
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game.resources
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Options.resources
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Splash1.resources
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csproj.GenerateResource.Cache
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csproj.CoreCompileInputs.cache
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.admin_login.resources
+E:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.admin_options.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csprojResolveAssemblyReference.cache
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.admin_login.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.admin_options.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Game.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Options.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Splash1.resources
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csproj.GenerateResource.cache
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fakeCountdown1.csproj.CoreCompileInputs.cache
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\computing\Sofware Programing\visaul Studios assignments\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb

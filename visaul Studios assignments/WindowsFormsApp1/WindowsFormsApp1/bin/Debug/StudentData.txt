@@ -1,0 +1,4 @@
+PUTCMORE,        COMPUTER,        common technology
+IPRTERN,         PRINTER,        creates documents
+NEVAKS,         SKAVEN,        filthy rat men
+tytry,     yfyt,     ftyft
